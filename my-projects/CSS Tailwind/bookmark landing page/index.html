@@ -1,0 +1,161 @@
+<!--https://github.com/uzoway/bookmark-landing-page/blob/master/images/icon-arrow.svg-->
+<!--https://www.youtube.com/watch?v=00gyCtIQp8E&list=PLA1RSE1qWuKBQAThk08cJPcoeMVfk9ECw-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tailwind CSS Installation</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <header class="w-full static absolute top-0">
+      <nav class="flex items-center justify-between">
+        <span class="flex items-center sm:ml-28">
+          <img src="./images/bookmark.jpeg" alt="bookmark" class="h-4">
+          <h1 class="text-xs sm:text-lg px-1 pr-7">BOOKMARK</h1>
+        </span>
+        <ul class="text-xs sm:text-lg flex items-center mr-36">
+          <li class="p-1 sm:p-4">FEATURES</li>
+          <li class="p-1 sm:p-4">PRICING</li>
+          <li class="p-1 sm:p-4">CONTACT</li>
+          <li class="p-1 sm:p-4"><button class="bg-orange-600 text-white px-4 py-1 rounded">LOGIN</button></li>
+        </ul>
+      </nav>
+    </header>
+    <!---------------------------------------Main---------------------------------------------------------------------------------------->
+    <main class="static absolute top-14 sm:top-48 w-full">
+    <!---------------------------------------first div--------------------------------------------------------------------------------------->
+      <div class="flex relative">
+        <div class="sm:ml-64">
+          <h1 class="text-2xl font-bold dark:text-black">A Simple Bookmark Manager</h1>
+          <p class="text-sm mt-3">A clean and simple interface to organize your favourite websites.
+            Open a new browser teb and see your sites load instantly. Try it for free.
+          </p>
+          <button class="bg-blue-600 text-white px-2 py-1 rounded my-4">Get it on Chrome</button>
+          <button class="bg-white text-black ml-3">Get it on Firefox</button>
+        </div>
+
+        <img src="./images/bookmark landing page.svg" class="hidden sm:w-full sm:h-56 sm:inline-block">
+      </div>
+    <!---------------------------------------second div--------------------------------------------------------------------------------------->
+      <div class="mt-14 sm:mt-36 flex flex-col items-center">
+        <h1 class="text-2xl font-bold dark:text-black">Features</h1>
+        <p class="text-sm mt-3">Our aim is to make it quick and easy for you to access your favourite websites.
+          Your bookmarks sync between your devices so you can access them on the go.
+        </p>
+      </div>
+    <!---------------------------------------third div--------------------------------------------------------------------------------------->
+      <div class="mt-5 sm:mt-16 flex">
+        <div class="flex flex-col">
+          <img src="./images/illustration-features-tab-1.svg" class="hidden sm:inline-block sm:h-56 sm:ml-64">
+        </div>
+
+        <div>
+          <h1 class="text-2xl font-bold dark:text-black ml-8">Bookmark in one click</h1>
+          <p class="text-sm mt-2 ml-8">Organize your bookmarks however you like. Our simple drag-and-drop interface gives you
+            complete control over how you manage your favourite sites.
+          </p>
+          <button class="bg-blue-600 text-white px-3 py-2 rounded mt-3 ml-8">More Info</button>
+        </div>
+      </div>
+    <!---------------------------------------fourth div--------------------------------------------------------------------------------------->
+    <div class="mt-5 sm:mt-16 flex">
+      <div class="flex-none">
+        <h1 class="text-2xl font-bold dark:text-black sm:mx-64">Intelligent search</h1>
+        <p class="text-sm mt-2 sm:ml-64 sm:mr-0">Our Powerful search feature will help you
+          find saved sites<br class="sm:inline-block lg:hidden"/> in no time at all. No need to trawl throught all of<br class="sm:inline-block lg:hidden"/> your bookmarks.
+        </p>
+        <button class="bg-blue-600 text-white px-3 py-2 rounded mt-3 sm:mx-64">More Info</button>
+      </div>
+
+      <div class="flex flex-col flex-none">
+        <img src="./images/illustration-features-tab-2.svg" class="hidden sm:inline-block sm:h-48 sm:object-contain lg:h-80 lg:pl-10">
+      </div>
+    </div>
+    <!---------------------------------------fifth div--------------------------------------------------------------------------------------->
+    <div class="mt-5 sm:mt-16 flex">
+      <div class="flex flex-col">
+        <img src="./images/illustration-features-tab-3.svg" class="hidden sm:inline-block sm:h-64 sm:ml-64">
+      </div>
+
+      <div>
+        <h1 class="text-2xl font-bold dark:text-black mx-8">Share your bookmarks</h1>
+        <p class="text-sm mt-2 mx-8">Easily share your bookmarks and collections with others. Create a shareable
+          link that you can send at the click of a button.
+        </p>
+        <button class="bg-blue-600 text-white px-3 py-2 rounded mt-3 mx-8">More Info</button>
+      </div>
+    </div>
+    <!---------------------------------------sixth div--------------------------------------------------------------------------------------->
+    <div class="mt-5 sm:mt-16 flex flex-col items-center">
+      <h1 class="text-2xl font-bold dark:text-black">Download the extension</h1>
+      <p class="text-sm mt-2">We've got more browsers in the pipeline. PLease do let us know if you've got a favourite you'd like us to
+        prioritize.
+      </p>
+    </div>
+    <!---------------------------------------seventh div--------------------------------------------------------------------------------------->
+    <div class="sm:mt-16 flex items-center justify-center">
+      <div class=" flex flex-col items-center p-4 sm:p-8 border-b shadow-lg">
+        <img src="./images/logo-chrome.svg" class="w-10 sm:w-20">
+        <h1 class="text-sm sm:text-xl font-bold dark:text-black mt-2">Add to Chrome</h1>
+        <p class="text-xs sm:text-sm mt-2">Minimum version 62</p>
+        <button class="bg-blue-600 text-xs sm:text-md text-white sm:px-3 sm:py-2 rounded mt-3">Add & Install Extension</button>
+      </div>
+
+      <div class="flex flex-col items-center mx-4 sm:mx-10 mt-10 p-4 sm:p-8 border-b shadow-lg">
+        <img src="./images/logo-firefox.svg" class="w-10 sm:w-20">
+        <h1 class="text-xs sm:text-xl font-bold dark:text-black mt-2">Add to Chrome</h1>
+        <p class="text-xs sm:text-sm mt-2">Minimum version 62</p>
+        <button class="bg-blue-600 text-xs sm:text-md text-white sm:px-3 sm:py-2 rounded mt-3">Add & Install Extension</button>
+      </div>
+
+      <div class="flex flex-col items-center mt-20 p-4 sm:p-8 border-b shadow-lg">
+        <img src="./images/logo-opera.svg" class="w-10 sm:w-20">
+        <h1 class="text-xs sm:text-xl font-bold dark:text-black mt-2">Add to Chrome</h1>
+        <p class="text-xs sm:text-sm mt-2">Minimum version 62</p>
+        <button class="bg-blue-600 text-xs sm:text-md text-white sm:px-3 sm:py-2 rounded mt-3">Add & Install Extension</button>
+      </div>
+    </div>
+    <!---------------------------------------eighth div--------------------------------------------------------------------------------------->
+    <div class="mt-16 flex flex-col items-center">
+      <h1 class="text-md sm:text-2xl font-bold dark:text-black">Frequently Asked Questions</h1>
+      <p class="text-sm mt-2 mx-8">Here are some of our FAQs. If you have any other questions you'd like answered please 
+        feel free to email us.
+      </p>
+      <div class="mt-14">
+        <div class="flex justify-between w-72 sm:w-96 cursor-pointer">
+          <h1>What is a Bookmark?</h1>
+          <img src="./images/icon-arrow.svg" class="h-3 mt-2">
+        </div>
+        <div class="flex justify-between w-72 sm:w-96 cursor-pointer">
+          <h1>How can I request a new browser?</h1>
+          <img src="./images/icon-arrow.svg" class="h-3 mt-2">
+        </div>
+        <div class="flex justify-between w-72 sm:w-96 cursor-pointer">
+          <h1>Is there a mobile app?</h1>
+          <img src="./images/icon-arrow.svg" class="h-3 mt-2">
+        </div>
+        <div class="flex justify-between w-80 sm:w-96 cursor-pointer">
+          <h1>What about other Chromium browsers?</h1>
+          <img src="./images/icon-arrow.svg" class="h-3 mt-2">
+        </div>
+      </div>
+      <button class="bg-blue-600 text-white px-3 py-2 rounded mt-6 w-32">More Info</button>
+    </div>
+    <!---------------------------------------ningth div--------------------------------------------------------------------------------------->
+    <div class="bg-blue-600 w-full sm:h-48 mt-5 sm:mt-24 flex flex-col items-center justify-center">
+      <h1 class="text-xs sm:text-lg text-black">36,000+ ALREADY JOINED</h1>
+      <h2 class="text-xs sm:text-lg text-black">Stay up-to-date with what we're doing</h2>
+      <div class="flex">
+        <label for="innput" class="text-xs sm:text-lg absolute mt-4 ml-1">Enter your email address</label>
+        <input type="text" name="innput" id="innput" class="rounded sm:w-72 sm:h-8 mt-3">
+        <button class="bg-orange-600 text-xs sm:text-lg text-white h-8 px-3 py-1 rounded ml-4 mt-3">Contact Us</button>
+      </div>
+    </div>
+  </main>
+
+  <footer></footer>
+</body>
+</html>
