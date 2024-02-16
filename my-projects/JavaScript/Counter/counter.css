@@ -1,0 +1,76 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+main{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(102, 172, 233);
+}
+
+h1{
+  box-sizing: border-box;
+  font-size: 50px;
+}
+
+h1:hover{
+  color: rgb(21, 21, 96);
+}
+
+div{
+  box-sizing: border-box;
+}
+
+#decrease{
+  cursor: pointer;
+  padding: 5px 10px;
+  background: transparent;
+  border: 2px solid red;
+  border-radius: 5px;
+}
+
+#decrease:hover{
+  background-color: red;
+  color: white;
+}
+
+#increase{
+  cursor: pointer;
+  padding: 5px 10px;
+  background: transparent;
+  border: 2px solid blueviolet;
+  border-radius: 5px;
+}
+
+#increase:hover{
+  background-color: blueviolet;
+  color: white;
+}
+
+#reset{
+  cursor: pointer;
+  padding: 5px 10px;
+  background: transparent;
+  border: 2px solid white;
+  border-radius: 5px;
+}
+
+#reset:hover{
+  background-color: white;
+  color: black;
+}
+
+#number{
+  box-sizing: border-box;
+  font-size: 40px;
+}
+
+#number:hover{
+  color: rgb(21, 21, 96);
+}
