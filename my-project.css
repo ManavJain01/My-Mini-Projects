@@ -1,0 +1,166 @@
+body{
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+header{
+  background-color: rgb(56, 54, 54);
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header h1{
+  color: yellow;
+  font-family: cursive;
+}
+
+main{
+  background-color:beige;
+  
+  min-height: 500px;
+  padding: 0;
+  padding-left: 60px;
+  margin: 0;
+}
+
+#div1{
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+}
+
+#heading1{
+  margin: 40px;
+  padding-bottom: 5px;
+  border-bottom: solid yellow;
+}
+
+#div2{
+  width: 200px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#btn1{
+  background-color: yellow;
+  font-family: monospace;
+  font-size: large;
+  white-space: nowrap;
+  width: 150px;
+  height: 40px;
+  padding: 10px 20px;
+  border: transparent;
+  border-radius: 5px;
+  cursor:pointer;
+  
+  animation-name: div1;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-fill-mode: none;
+  
+}
+
+#div3{
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.div4{
+  padding: 0;
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2%;
+  box-shadow: 3px 3px 10px gray;
+
+  animation-name: div4;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: none;  
+}
+
+.webpage{
+  border-top-left-radius: 2%;
+  border-top-right-radius: 2%;
+}
+
+.webpageLinks{
+  text-decoration: none;
+}
+
+.heading2{
+  font-family: monospace;
+  font-size: larger;
+  background-color: rgb(254, 254, 123);
+  margin: 0;
+  width: 350px;
+  height: 40px;
+  border: solid rgb(254, 254, 123);
+  border-bottom-left-radius: 2%;
+  border-bottom-right-radius: 2%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow:auto;
+  scrollbar-width:none;
+}
+
+footer{
+  background-color: yellow;
+  height: 250px;
+}
+
+/*
+@keyframes div1{
+  0%{
+    transform: translateY(10px);
+  }
+
+  100%{
+    transform: translateY(20px);
+  }
+}
+*/
+
+@keyframes div1{
+  0%{
+    width: 150px;
+    height: 40px;
+  }
+
+  50%{
+    width: 165px;
+    height: 65px;
+    font-size: larger;
+  }
+
+  100%{
+    width: 150px;
+    height: 40px;
+  }
+}
+
+@keyframes div4{
+  0%{
+    transform: translateX(-30px);
+  }
+
+  100%{
+    transform: translateX(0);
+  }
+}
