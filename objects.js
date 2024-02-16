@@ -36,7 +36,7 @@ const webpages = {
   },
   //------------------------------------------------Vanilla-CSS---------------------------------------------------------------------------------
   [`${i++}`]: {
-    link: 'https://github.com/ManavJain01/My-Mini-Projects/blob/main/my-projects/CSS/Footer-Header/footer-header.html' //'../my-project/CSS/Footer-Header/Footer-Header.html',
+    link: './my-projects/CSS/Footer-Header/footer-header.html' //'../my-project/CSS/Footer-Header/Footer-Header.html',
     p:'Simple CSS Project',
     sp:'Footer & Header'
   }
