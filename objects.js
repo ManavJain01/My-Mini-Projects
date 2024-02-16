@@ -33,7 +33,7 @@ const webpages = {
     link: './my-project/CSS Tailwind/bookmark landing page/bookmarkLanding.html',
     p:'Simple Tailwind Project',
     sp:'Bookmark Landing Page'
-  }
+  },
   //------------------------------------------------Vanilla-CSS---------------------------------------------------------------------------------
   [`${i++}`]: {
     link: './my-projects/CSS/Footer-Header/footer-header.html', //'../my-project/CSS/Footer-Header/Footer-Header.html',
