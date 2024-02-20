@@ -5,7 +5,7 @@ const webpages = {
   [`${i++}`]: {
     link: './my-projects/React Js/Simple-nike-page/index.html',
     p:'Simple React Project',
-    sp:'Simple Nike Page'
+    sp:''
   },
   //------------------------------------------------JavaScript---------------------------------------------------------------------------------
   [`${i++}`]: {
