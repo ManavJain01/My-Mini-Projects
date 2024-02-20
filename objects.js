@@ -26,6 +26,11 @@ const webpages = {
   }, 
   //------------------------------------------------Tailwind-----------------------------------------------------------------------------------
   [`${i++}`]: {
+    link: './my-projects/CSS Tailwind/Organic landing page/landingPage.html',
+    p:'Simple Tailwind Project',
+    sp:'Organic Landing Page'
+  },
+  [`${i++}`]: {
     link: './my-projects/CSS Tailwind/bookmark landing page/bookmarkLanding.html',
     p:'Simple Tailwind Project',
     sp:'Bookmark Landing Page'
