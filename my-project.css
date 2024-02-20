@@ -20,8 +20,7 @@ header h1{
 
 main{
   background-color:beige;
-  
-  min-height: 500px;
+  min-height: 100vh;
   padding: 0;
   padding-left: 60px;
   margin: 0;
