@@ -5,17 +5,17 @@ const webpages = {
 
   //------------------------------------------------JavaScript---------------------------------------------------------------------------------
   [`${i++}`]: {
-    link: './my-projects/JavaScript/Tic-Tac-Toe/Tic-Tac_Toe.html',
+    link: '../my-projects/JavaScript/Tic-Tac-Toe/Tic-Tac_Toe.html',
     p:'Simple JavaScript Project',
     sp:'Tic-Tac-Toe'
   },
   [`${i++}`]: {
-    link: './my-projects/JavaScript/Rock-Paper-Scissors/Rock-Paper-Scissors.html',
+    link: '../my-projects/JavaScript/Rock-Paper-Scissors/Rock-Paper-Scissors.html',
     p:'Simple JavaScript Project',
     sp:'Rock-Paper-Scissor'
   },
   [`${i++}`]: {
-    link: './my-projects/JavaScript/Color-Flipper/colorFlipper.html',
+    link: '../my-projects/JavaScript/Color-Flipper/colorFlipper.html',
     p:'Simple Javascript Project',
     sp:'Color Flipper'
   },
@@ -26,18 +26,18 @@ const webpages = {
   }, 
   //------------------------------------------------Tailwind-----------------------------------------------------------------------------------
   [`${i++}`]: {
-    link: './my-projects/CSS Tailwind/Organic landing page/landingPage.html',
+    link: '../my-projects/CSS Tailwind/Organic landing page/landingPage.html',
     p:'Simple Tailwind Project',
     sp:'Organic Landing Page'
   },
   [`${i++}`]: {
-    link: './my-projects/CSS Tailwind/bookmark landing page/bookmarkLanding.html',
+    link: '../my-projects/CSS Tailwind/bookmark landing page/bookmarkLanding.html',
     p:'Simple Tailwind Project',
     sp:'Bookmark Landing Page'
   },
   //------------------------------------------------Vanilla-CSS---------------------------------------------------------------------------------
   [`${i++}`]: {
-    link: './my-projects/CSS/Footer-Header/footer-header.html', //'../my-project/CSS/Footer-Header/Footer-Header.html',
+    link: '../my-projects/CSS/Footer-Header/footer-header.html', //'../my-project/CSS/Footer-Header/Footer-Header.html',
     p:'Simple CSS Project',
     sp:'Footer & Header'
   }
