@@ -5,6 +5,11 @@ const webpages = {
 
   //------------------------------------------------JavaScript---------------------------------------------------------------------------------
   [`${i++}`]: {
+    link: '../my-projects/JavaScript/Online Food Delivery Services/index.html',
+    p:'JavaScript Project',
+    sp:'Online Food Delivery Services'
+  },
+  [`${i++}`]: {
     link: '../my-projects/JavaScript/Tic-Tac-Toe/Tic-Tac_Toe.html',
     p:'Simple JavaScript Project',
     sp:'Tic-Tac-Toe'
@@ -20,7 +25,7 @@ const webpages = {
     sp:'Color Flipper'
   },
   [`${i++}`]: {
-    link: './my-projects/JavaScript/Counter/counter.html',
+    link: '../my-projects/JavaScript/Counter/counter.html',
     p:'Simple Javascript Project',
     sp:'Counter'
   }, 
