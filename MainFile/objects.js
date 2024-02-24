@@ -5,11 +5,6 @@ const webpages = {
 
   //------------------------------------------------JavaScript---------------------------------------------------------------------------------
   [`${i++}`]: {
-    link: '../my-projects/JavaScript/Online Food Delivery Services/index.html',
-    p:'JavaScript Project',
-    sp:'Online Food Delivery Services'
-  },
-  [`${i++}`]: {
     link: '../my-projects/JavaScript/Tic-Tac-Toe/Tic-Tac_Toe.html',
     p:'Simple JavaScript Project',
     sp:'Tic-Tac-Toe'
@@ -42,8 +37,13 @@ const webpages = {
   },
   //------------------------------------------------Vanilla-CSS---------------------------------------------------------------------------------
   [`${i++}`]: {
+    link: '../my-projects/CSS/Online Food Delivery Services/index.html',
+    p:'Vanilla CSS Project',
+    sp:'Online Food Delivery Services'
+  },
+  [`${i++}`]: {
     link: '../my-projects/CSS/Footer-Header/footer-header.html', //'../my-project/CSS/Footer-Header/Footer-Header.html',
-    p:'Simple CSS Project',
+    p:'Simple Vanilla CSS Project',
     sp:'Footer & Header'
   }
 }
