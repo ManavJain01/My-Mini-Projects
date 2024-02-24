@@ -6,7 +6,7 @@ const webpages = {
   //------------------------------------------------JavaScript---------------------------------------------------------------------------------
   [`${i++}`]: {
     link: '../my-projects/JavaScript/Tic-Tac-Toe/Tic-Tac_Toe.html',
-    p:'Simple JavaScript Project',
+    p:'JavaScript Project',
     sp:'Tic-Tac-Toe'
   },
   [`${i++}`]: {
