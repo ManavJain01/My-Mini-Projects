@@ -20,7 +20,7 @@ header h1{
 
 main{
   background-color:beige;
-  min-height: 100vh;
+  min-height: 80vh;
   padding: 0;
   padding-left: 60px;
   margin: 0;
@@ -119,23 +119,6 @@ main{
   scrollbar-width:none;
 }
 
-footer{
-  background-color: yellow;
-  height: 250px;
-}
-
-/*
-@keyframes div1{
-  0%{
-    transform: translateY(10px);
-  }
-
-  100%{
-    transform: translateY(20px);
-  }
-}
-*/
-
 @keyframes div1{
   0%{
     width: 150px;
@@ -162,4 +145,62 @@ footer{
   100%{
     transform: translateX(0);
   }
+}
+
+footer{
+  background-color: yellow;
+  min-height: 250px;
+}
+
+footer nav{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  text-align: center;
+}
+
+footer nav ul li{
+  list-style: none;
+  padding: 10px 0px;
+}
+
+footer nav ul h1{
+  margin-bottom: 0;
+  margin-top: 15%;
+  font-size: 30px;
+  font-family: cursive;
+}
+
+footer nav ul li img{
+  width: 20px;
+  padding: 0px 5px;
+}
+
+footer nav ul li a{
+  text-decoration: none;
+  color: rgb(56, 54, 54);
+}
+
+.liHeadlines{
+  padding: 0;
+  margin-top: 29%;
+  font-size: 170%;
+  font-family: cursive;
+  border-bottom: 2px solid beige;
+}
+
+.portfolio{
+  padding: 0;
+  margin-top: 5%;
+  font-size: 170%;
+  font-family: cursive;
+  cursor: pointer;
+}
+
+.connect{
+  padding: 0;
+  margin-top: 17%;
+  font-size: 170%;
+  font-family: cursive;
+  border-bottom: 2px solid beige;
 }
