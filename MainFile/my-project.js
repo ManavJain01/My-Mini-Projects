@@ -1,21 +1,4 @@
 import webpages from "./objects.js";
-//--------------------------------------------------------------------------------------------------------------------------------------------
-/*
-function loadScript(src){
-  const script = document.createElement("script");
-  script.src = src;
-  document.body.prepend(script);
-}
-
-loadScript('./object.js')
-console.log(webpagesX);
-*/
-/*
-document.write("<script src='./object.js'></script>")
-console.log(webpages);
-*/
-//--------------------------------------------------------------------------------------------------------------------------------------------
-
 
 const div3 = document.getElementById('div3');
 const btn = document.getElementById('btn1');

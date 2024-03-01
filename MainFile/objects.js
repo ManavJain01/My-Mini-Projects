@@ -15,6 +15,11 @@ const webpages = {
     sp:'Tic-Tac-Toe'
   },
   [`${i++}`]: {
+    link: '../my-projects/JavaScript/Form Validation/form.html',
+    p:'JavaScript Project',
+    sp:'Form Validation'
+  },
+  [`${i++}`]: {
     link: '../my-projects/JavaScript/Rock-Paper-Scissors/Rock-Paper-Scissors.html',
     p:'Simple JavaScript Project',
     sp:'Rock-Paper-Scissor'

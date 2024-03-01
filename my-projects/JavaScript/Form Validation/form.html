@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Validation Form</title>
+    <link rel="stylesheet" href="form.css">
+  </head>
+  <body>
+    <h1>Form Validation</h1>
+    <form onsubmit="return validate()" action="message.html">
+        <label for="username">Username</label>
+        <input type="text" id="username" placeholder="Username">
+        <div id="error-msg1"></div>
+      <br>
+        <label for="password">Password</label>
+        <input type="password" id="password" placeholder="Password">
+        <div id="error-msg2"></div>
+      <br>
+      <button type="submit" id="submit">Submit</button>
+    </form>
+
+    <script type="text/javascript" src="form.js"></script>
+    <script type="text/javascript" src="message.js"></script>
+  </body>
+</html>

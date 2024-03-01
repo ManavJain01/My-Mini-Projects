@@ -1,0 +1,89 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: black;
+  min-height:100lvh;
+  min-width: 100lvw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1{
+  color: white;
+  font-family: monospace;
+  position: relative;
+  bottom: 200px;
+}
+
+body form{
+  background-color: rgb(42, 1, 1);
+  width: 50%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 10px 10px 200px red;
+}
+
+label{
+  color: rgb(120, 102, 102);
+  font-size: large;
+  font-family: monospace;
+  position: relative;
+  right: 45px;
+}
+
+input{
+  box-shadow: inset 1px 1px 5px red;
+  padding: 3px 8px;
+}
+
+button{
+  background-color: transparent;
+  color: white;
+  font-family: monospace;
+  padding: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  border-radius: 10px;
+}
+
+#submit-btn:hover{
+  transform: translateX(130px);
+}
+
+#error-msg1{
+  padding-top: 5px;
+  color:red;
+}
+
+#error-msg2{
+  padding-top: 5px;
+  color:red;
+}
+
+@media all and (max-height: 580px){
+  h1{
+    bottom: 100px;
+  }
+}
+
+@media all and (max-height: 400px){
+  h1{
+    bottom: 20px;
+    color: transparent;
+    text-shadow: -1px 1px 0 #000,
+                  5px 5px 10px red,
+                  1px -1px  #000,
+                  -3px -2px 0 gray;
+  }
+}
