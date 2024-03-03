@@ -1,13 +1,13 @@
 body{
   padding: 0;
   margin: 0;
-  width: 100%;
+  width: 100vw;
   box-sizing: border-box;
 }
 
 header{
   background-color: rgb(56, 54, 54);
-  height: 250px;
+  min-height: 20vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -20,7 +20,7 @@ header h1{
 
 main{
   background-color:beige;
-  min-height: 80vh;
+  min-height: 60vh;
   padding: 0;
   padding-left: 60px;
   margin: 0;
@@ -119,6 +119,18 @@ main{
   scrollbar-width:none;
 }
 
+/*
+@keyframes div1{
+  0%{
+    transform: translateY(10px);
+  }
+
+  100%{
+    transform: translateY(20px);
+  }
+}
+*/
+
 @keyframes div1{
   0%{
     width: 150px;
@@ -149,7 +161,7 @@ main{
 
 footer{
   background-color: yellow;
-  min-height: 250px;
+  min-height: 20vh;
 }
 
 footer nav{
