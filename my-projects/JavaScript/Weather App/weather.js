@@ -9,7 +9,7 @@ async function checkWeather(city) {
   const response = await fetch(apiUrl + city + `&appid=${apiKey}`);
 
   if (response.status == 404) {
-    document.getElementById("error").style.display = "block";
+    document.getElementById("error").style.display = "flex";
     document.getElementById("weather").style.display = "none";
   } else {
     let data = await response.json();
