@@ -9,16 +9,28 @@
       <nav>
         <h1>W3learn Point</h1>
         <ul>
-          <li>Home</li>
-          <li>Process</li>
-          <li>Blog</li>
-          <li>Contact Us</li>
-          <li><button>Log in</button></li>
-          <li><button>Sign up</button></li>
+          <li class="li">Home</li>
+          <li class="li">Process</li>
+          <li class="li">Blog</li>
+          <li class="li">Contact Us</li>
+          <li class="li"><button>Log in</button></li>
+          <li class="li"><button>Sign up</button></li>
+          <li><button onclick="btnClick()" id="hambtn" ><img id="img" src="./Images/hamburger.png"></button></li>
         </ul>
       </nav>
     </header>
-    <main></main>
+    <main>
+      <div id="hiddendiv" class="hiddendiv">
+        <ul>
+          <li class="">Home</li>
+          <li class="">Process</li>
+          <li class="">Blog</li>
+          <li class="">Contact Us</li>
+          <li class=""><button>Log in</button></li>
+          <li class=""><button>Sign up</button></li>
+        </ul>
+      </div>
+    </main>
     <footer>
       <div class="parentdiv">
         <div class="childdiv">
@@ -56,5 +68,7 @@
         </div>
       </div>
     </footer>
+
+    <script src="./Footer-Header.js"></script>
   </body>
 </html>
