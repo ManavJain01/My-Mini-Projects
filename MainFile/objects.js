@@ -52,6 +52,11 @@ const webpages = {
     sp:'Online Food Delivery Services'
   },
   [`${i++}`]: {
+    link: '../my-projects/CSS/Image Gallery/gallery.html',
+    p:'CSS Project with Grid Layout',
+    sp:'Image Gallery'
+  },
+  [`${i++}`]: {
     link: '../my-projects/CSS/Footer-Header/footer-header.html', //'../my-project/CSS/Footer-Header/Footer-Header.html',
     p:'Simple Vanilla CSS Project',
     sp:'Footer & Header'
