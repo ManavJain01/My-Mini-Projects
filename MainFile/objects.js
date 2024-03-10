@@ -20,6 +20,11 @@ const webpages = {
     sp:'A To-Do List'
   },
   [`${i++}`]: {
+    link: '../my-projects/JavaScript/Quiz App/index.html',
+    p:'JavaScript Project',
+    sp:'Quiz App'
+  },
+  [`${i++}`]: {
     link: '../my-projects/JavaScript/Form Validation/form.html',
     p:'JavaScript Project',
     sp:'Form Validation'
