@@ -1,0 +1,112 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  height: 100vh;
+  width: 100vw;
+  background-color: purple;
+  font-family: monospace;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body div{
+  background-color: white;
+  color: black;
+  width: 25rem;
+  min-height: 15rem;
+  max-height: 35rem;
+  overflow-y: scroll;
+  scrollbar-width: none;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 50px black;
+}
+
+body div:hover{
+  transform: scale(1.2,1.2);
+  transition-duration: 500ms;
+}
+
+body div h1{
+  text-align: center;
+}
+
+body div h1 img{
+  width: 25px;
+  object-fit: contain;
+}
+
+body div section{
+  display: flex;
+  margin-top: 10px;
+  position: relative;
+}
+
+body div section input{
+  background-color: rgb(229, 222, 222);
+  flex-grow: 1;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+}
+
+#add{
+  background-color: orangered;
+  color: white;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 20px;
+  position: absolute;
+  right: 0;
+  cursor: pointer;
+}
+
+#add:hover{
+  opacity: 0.8;
+}
+
+#lists{
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+}
+
+.singleList{
+  margin-top: 5px;
+  display: flex;
+  list-style: none;
+}
+
+.singleList input{
+  border: 20px;
+  margin-right: 10px;
+}
+
+.singleList button{
+  cursor: pointer;
+  border: none;
+
+  position: absolute;
+  right: 10px;
+}
+
+.singleList button:hover{
+ opacity: 0.8;
+}
+
+.singleList button img{
+  width: 10px;
+  object-fit: contain;
+}
+
+.checked{
+  text-decoration: line-through;
+  opacity: 0.9;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <div>
+      <h1>To-Do List <img src="./Images/todo.png"></h1>
+
+      <section>
+        <input type="text" id="taskAdd" placeholder="Add your task">
+        <button onclick="AddTask()" id="add">Add</button>
+      </section>
+
+      <ul id="lists">
+        <li class="singleList">
+          <input class="check" type="checkbox">
+          <p>Create a Javascript project</p>
+          <button onclick="RemoveTask()"><img src="./Images/close.png"></button>
+        </li>
+
+        <li class="singleList checked">
+          <input type="checkbox">
+          <p>Create a Javascript project</p>
+          <button><img src="./Images/close.png"></button>
+        </li>
+      </ul>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
