@@ -7,6 +7,7 @@ function AddTask(){
   }else{
     const input = document.createElement("input");
     input.type = "checkbox";
+    input.setAttribute('onclick','CompleteTask(this)');
 
     const p = document.createElement("p");
     p.innerHTML = taskAdd.value;
@@ -16,6 +17,7 @@ function AddTask(){
 
     const button = document.createElement("button");
     button.appendChild(img)
+    button.setAttribute('onclick','RemoveTask(this)');
 
 
     let li = document.createElement("li");
@@ -40,5 +42,18 @@ function showTask(){
 
 showTask();
 
-let check = document.getElementsByClassName("check");
-console.log(check);
+
+function RemoveTask(e){
+  e.parentElement.remove();
+  saveData();
+}
+
+function CompleteTask(e){
+  if(e.checked == true) {
+    e.value = "True"; 
+    e.parentElement.classList.add("checked");
+  }else{
+    e.parentElement.classList.remove("checked");
+  }
+  saveData();
+}
