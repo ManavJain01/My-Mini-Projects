@@ -5,6 +5,11 @@ const webpages = {
 
   //------------------------------------------------JavaScript---------------------------------------------------------------------------------
   [`${i++}`]: {
+    link: '../my-projects/JavaScript/Flappy Bird/index.html',
+    p:'JavaScript Game Project',
+    sp:'Flappy Bird'
+  },
+  [`${i++}`]: {
     link: '../my-projects/JavaScript/Weather App/weatherApp.html',
     p:'JavaScript Project with weather API',
     sp:'Weather App'
