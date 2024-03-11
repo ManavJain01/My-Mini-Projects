@@ -1,0 +1,47 @@
+*, *::after, *::before{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  overflow: hidden;
+}
+
+.title{
+  z-index: 10;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  inset: 0;
+  margin: 0;
+}
+
+.subtitle{
+  margin-top: .5rem;
+}
+
+.hide{
+  display: none;
+}
+
+.bird{
+  --bird-top: -1000;
+  --bird-size: 60px;
+  height: var(--bird-size);
+  width: var(--bird-size);
+  position: absolute;
+  left: var(--bird-size);
+  top: calc(var(--bird-top) * 1px);
+  background-color: hsl(50, 75%, 50%);
+  /* background-color: transparent; */
+  border-radius: 50%;
+}
+
+.bird img{
+  height: var(--bird-size);
+  width: var(--bird-size);
+  object-fit: contain;
+}
