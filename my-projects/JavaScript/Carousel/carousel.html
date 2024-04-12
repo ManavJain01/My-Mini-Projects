@@ -12,8 +12,48 @@
     </ul>
 
     <div class="nav">
-      <button>Prev</button>
-      <button>Next</button>
+      <button id="prev" onclick="goPrev(this)">Prev</button>
+      <button id="next" onclick="goNext(this)">Next</button>
     </div>
+
+    <script>
+      const slides = document.querySelectorAll(".slide")
+      let counter = 0;
+      slides.forEach(
+        (slide, index) => {
+          slide.style.left = `${index * 100}%`
+        }
+      )
+
+      const slideImage = () => {
+        slides.forEach(
+          (slide) => {
+            slide.style.transform = `translateX(-${counter*100}%)`
+          }
+        )
+      }
+
+      const goPrev = (e) => {
+        const next = document.getElementById("next")
+        if(counter == 0){
+          e.style.backgroundColor = "red";
+          return
+        }
+        next.style.backgroundColor = "green"
+        counter--;
+        slideImage()
+      }
+
+      const goNext = (e) => {
+        const prev = document.getElementById("prev")
+        if(counter == slides.length-1){
+          e.style.backgroundColor = "red"
+          return
+        }
+        prev.style.backgroundColor = "green"
+        counter++;
+        slideImage()
+      }
+    </script>
   </body>
 </html>
