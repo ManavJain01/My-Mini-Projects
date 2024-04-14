@@ -3,3 +3,18 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+ul{
+  /* width: 100vw; */
+  min-height: 70vh;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+}
+
+.slide{
+  transition: 1s;
+  position: absolute;
+  width: 100%;
+  object-fit: contain;
+}
