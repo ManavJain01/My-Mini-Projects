@@ -30,6 +30,11 @@ const webpages = {
     sp:'Quiz App'
   },
   [`${i++}`]: {
+    link: '../my-projects/JavaScript/Carousel/carousel.html',
+    p:'Javascript Project',
+    sp:'Carousel'
+  }, 
+  [`${i++}`]: {
     link: '../my-projects/JavaScript/Form Validation/form.html',
     p:'JavaScript Project',
     sp:'Form Validation'
